@@ -1,0 +1,67 @@
+body {
+	background-image: url("http://127.0.0.1/lampsite/img/background.gif");
+   color: #73d216;}
+
+#st {
+	position: absolute;
+	left:580px;
+	top: 300px;}
+ 
+ /*ths is a child div within st*/
+#uploadflag{
+	position: absolute;
+	left: 400px;
+	top:400px;}
+
+#loggedin{
+	position:absolute;
+	right:20px;
+	top: 10px;}
+
+#blackdawn{
+	max-height: 400px;
+	left: 10px;}
+
+#login{
+	position: absolute;
+	bottom:20px;
+	right: 30px; 
+	width:348px;
+   font-weight:5px;  
+	text-align:center;
+	}
+#paragraph{
+	width: 800px;}
+	
+.roundabout-holder{
+	position: absolute;
+	right: 450px;
+	top: -100px;}
+	
+.roundabout img{
+	   border-radius: 100px;
+	   opacity: .4;
+		height:170px;
+		width: 170px;}
+		
+.hover img{
+	opacity: 1;}
+	
+.phover{
+	display: none;}
+	
+a:link, a:visited {
+	color:#ff0000;}
+	
+#copyrights{
+	color: #d8dfea;
+	opacity:0.3; 	
+	position: absolute;
+	bottom: 1px;
+	left: 1px;}
+#testquestion{
+	position:absolute;
+	left:200px;
+	bottom:200px;
+	width:700px;}
+		

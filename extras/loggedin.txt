@@ -1,0 +1,15 @@
+
+<div id="loggedin">
+<?php
+if($_SESSION["authenticated"])
+{ 
+print("you are logged in </br>");
+echo "<a href='logout.php'>logout </a>";
+}
+else
+{
+echo "You are not logged in or registered <a href='login.php'>loginregister</a>";	 
+exit();
+}
+?>
+</div>

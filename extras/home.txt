@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+  <title>hey</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" /> 
+  </head>
+  
+  <body>
+  <div id='st'>
+  <form action='delete.php' method='post'></br>
+    <input name="delete" type="radio" > DELETE  
+    <input type="submit" value="submit">
+  </form>
+  </div>
+  </body>
+</html>
+

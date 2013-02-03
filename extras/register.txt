@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>register</title>
+	 <link rel="stylesheet" type="text/css" href="style/style.css" /> 
+  </head>
+
+  <body>  
+    <div id="st">
+      <table>
+         <tr><form action="trigger.php" method="post" enctype="multipart/form-data">
+
+      
+          <input type="file" name="lamp" id="filename" value="UPLOAD" accept="text/plain"></input></tr>
+            <tr><td>Programming language used: </td><td><select name="language_used">
+            <option value="cpp">C++</option>
+            <option value="c">C</option>
+            <option value="py">Python</option>
+            <option value="java">JAVA</option>
+            <option value="cs">C#</option>
+		      </select></td></tr>
+		     <tr><input type="submit" value="UPLOAD"></input></tr>
+	
+	 </form>
+	 	</table>
+</div>
+</body>
+
+</html>
